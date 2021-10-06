@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.L</name>
+    </assembly>
+    <members>
+        <member name="M:API.L.Controllers.LanguageController.Get(System.String,System.String)">
+            <summary>
+            Dil ve key bilgisine göre içerik metnini verir.
+            </summary>
+            <param name="lang"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.L.Controllers.LanguageController.InsertLanguage(API.Core.DTO.LanguageInsertDTO)">
+            <summary>
+            Yeni bir dil oluşturur.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.L.Controllers.LanguageController.InsertTranslation(API.Core.DTO.TranslationInsertDTO)">
+            <summary>
+            Dile yeni bir içerik ekler.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
